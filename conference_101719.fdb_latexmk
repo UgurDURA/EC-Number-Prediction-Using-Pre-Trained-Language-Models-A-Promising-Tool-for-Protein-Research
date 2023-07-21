@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1689961634 "/Users/ugur_dura/Desktop/Writing Academic Resarch Papers/Paper/EC-Number-Prediction-Using-Pre-Trained-Language-Models-A-Promising-Tool-for-Protein-Research/conference_101719.tex" "conference_101719.pdf" "conference_101719" 1689961635 0
-  "/Users/ugur_dura/Desktop/Writing Academic Resarch Papers/Paper/EC-Number-Prediction-Using-Pre-Trained-Language-Models-A-Promising-Tool-for-Protein-Research/conference_101719.tex" 1689961633 14588 fa721fe04c058744fead41467185c853 ""
+["pdflatex"] 1689962825 "/Users/ugur_dura/Desktop/Writing Academic Resarch Papers/Paper/EC-Number-Prediction-Using-Pre-Trained-Language-Models-A-Promising-Tool-for-Protein-Research/conference_101719.tex" "conference_101719.pdf" "conference_101719" 1689962826 2
+  "/Users/ugur_dura/Desktop/Writing Academic Resarch Papers/Paper/EC-Number-Prediction-Using-Pre-Trained-Language-Models-A-Promising-Tool-for-Protein-Research/conference_101719.tex" 1689962824 17207 eef139aff4cb05332e3ded7a5895ca61 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -82,13 +82,18 @@
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1689909901 8172484 835dfcb8c4a275d91e4d946d2587f0a1 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "IEEEtran.cls" 1689900240 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "conference_101719.aux" 1689961635 3745 202315b2af5a2026ed8223359970f6f1 "pdflatex"
-  "conference_101719.tex" 1689961633 14588 fa721fe04c058744fead41467185c853 ""
+  "conference_101719.aux" 1689962825 5577 87c06ed62da07ef17668c7f9dde0b112 "pdflatex"
+  "conference_101719.tex" 1689962824 17207 eef139aff4cb05332e3ded7a5895ca61 ""
+  "images/Model_0001.jpg" 1689954232 89412 701437bd97cd54e16e6a31334e28206e ""
   "images/Sequence_SizeDistribution(1000).png" 1689954257 53840 611d7ca333acde5a4739670e3db79b33 ""
   "images/Sequence_SizeDistribution(2000).png" 1689954259 49020 2795e7c3ff6fb7ee65be8cdc13718f63 ""
   "images/UniqueAminoAcids.png" 1689954279 6849 04d059abd2a3d39daaa22170ff5f01e4 ""
   "images/XMASK_Padding_Truncation_Distribution.jpg" 1689954323 214750 f140fcab94d96a9d1085dd87051a4f3a ""
   "images/XMASK_Padding_Truncation_Distribution_1024.jpg" 1689954323 199036 96de3b09013ef5962da48004904540d2 ""
+  "plot1" 0 -1 0 ""
+  "plot2" 0 -1 0 ""
+  "plot3" 0 -1 0 ""
+  "plot4" 0 -1 0 ""
   (generated)
   "conference_101719.aux"
   "conference_101719.log"

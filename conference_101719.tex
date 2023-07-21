@@ -178,9 +178,86 @@ which provided probability scores for each class. ReLU activation function was u
 hidden layers to prevent the vanishing gradient problem and enhance model performance.
 
 
+\begin{figure}[htp!]
+  \centering
+  \includegraphics[width=1\linewidth]{images/Model_0001.jpg}
+  \caption{Enzyme Commission number prediction up to two digits model.Hyperparameters for this model: Dataset size:
+  50.000, Batch size: 32, Input array size: 512, Label array size: 72, epoch number: 10, optimizer:
+  Adam, learning rate: 0.01, training and test split size: 1:9, activation function: sigmoid, output layer
+  activation function: sigmoid.}
+  \label{fig:model}
+\end{figure}
+
+
+
 
 
 \section{Results}
+
+\subsection{Results of first-order EC number prediction}
+
+Upon completing the training of our model, we conducted an assessment of various
+metrics including loss, accuracy, validation accuracy, and validation loss. fig. 5 demon-
+strates a continuous decrease in loss and an increase in accuracy, indicating that our
+model did not suffer from overfitting and the training process was successful.
+
+Additionally, following the model’s successful training, we performed several tests by
+loading data and predicting sequences provided by the user. The outcomes of these tests
+confirmed that our model possesses the capability to accurately predict EC numbers for
+the requested sequences.
+
+\subsection{Results of second, third and fourth-order EC number prediction}
+
+We extended our predictions to include second, third, and fourth orders of the EC number
+to obtain more specific information about the enzymes. As the order of the EC number
+increased, the number of classes (labels) also increased. For example, the second order
+had 72 classes, the third order had 207 classes, and the fourth order had 272 distinct
+classes. Due to the increasing complexity of the EC numbers, predicting the exact EC
+number based on a limited dataset became more challenging. However, we made every
+effort to achieve the best possible results, as shown in fig. 5.
+
+
+\begin{figure}[ht]
+  \centering
+
+  \begin{subfigure}{0.45\linewidth}
+    \includegraphics[width=\linewidth]{plot1}
+    \caption{Subcaption 1}
+    \label{fig:subfig1}
+  \end{subfigure}
+
+  \vspace{0.5cm}
+
+  \begin{subfigure}{0.45\linewidth}
+    \includegraphics[width=\linewidth]{plot2}
+    \caption{Subcaption 2}
+    \label{fig:subfig2}
+  \end{subfigure}
+
+  \vspace{0.5cm}
+
+  \begin{subfigure}{0.45\linewidth}
+    \includegraphics[width=\linewidth]{plot3}
+    \caption{Subcaption 3}
+    \label{fig:subfig3}
+  \end{subfigure}
+
+  \vspace{0.5cm}
+
+  \begin{subfigure}{0.45\linewidth}
+    \includegraphics[width=\linewidth]{plot4}
+    \caption{Subcaption 4}
+    \label{fig:subfig4}
+  \end{subfigure}
+
+  \caption{Main caption for the entire figure}
+  \label{fig:mainfigure}
+\end{figure}
+
+
+
+
+
 
 
 

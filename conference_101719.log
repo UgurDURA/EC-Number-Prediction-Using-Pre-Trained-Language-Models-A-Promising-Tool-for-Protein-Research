@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.21)  21 JUL 2023 19:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.21)  21 JUL 2023 20:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -261,20 +261,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box55
-) (./conference_101719.aux
-
-LaTeX Warning: Label `fig:subfig1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:subfig1' multiply defined.
-
-
-LaTeX Warning: Label `fig:subfig2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:subfig2' multiply defined.
-
-)
+) (./conference_101719.aux)
 \openout1 = `conference_101719.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -326,6 +313,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
+
+LaTeX Warning: Reference `fig:dataset_analysis' on page 2 undefined on input line 79.
+
 <images/UniqueAminoAcids.png, id=11, 373.395pt x 259.97125pt>
 File: images/UniqueAminoAcids.png Graphic file (type png)
 <use images/UniqueAminoAcids.png>
@@ -341,6 +331,12 @@ File: images/Sequence_SizeDistribution(1000).png Graphic file (type png)
 <use images/Sequence_SizeDistribution(1000).png>
 Package pdftex.def Info: images/Sequence_SizeDistribution(1000).png  used on input line 105.
 (pdftex.def)             Requested size: 252.0pt x 176.40028pt.
+
+LaTeX Warning: Reference `fig:Sequence_SizeDistribution' on page 2 undefined on input line 117.
+
+
+LaTeX Warning: Reference `fig:Padding_Truncation' on page 2 undefined on input line 117.
+
 <images/XMASK_Padding_Truncation_Distribution.jpg, id=15, 479.54156pt x 362.10281pt>
 File: images/XMASK_Padding_Truncation_Distribution.jpg Graphic file (type jpg)
 <use images/XMASK_Padding_Truncation_Distribution.jpg>
@@ -351,9 +347,107 @@ File: images/XMASK_Padding_Truncation_Distribution_1024.jpg Graphic file (type j
 <use images/XMASK_Padding_Truncation_Distribution_1024.jpg>
 Package pdftex.def Info: images/XMASK_Padding_Truncation_Distribution_1024.jpg  used on input line 132.
 (pdftex.def)             Requested size: 161.28122pt x 120.8355pt.
- [2 <./images/UniqueAminoAcids.png> <./images/Sequence_SizeDistribution(2000).png> <./images/Sequence_SizeDistribution(1000).png>]
+
+LaTeX Warning: Reference `eq:indicator_function' on page 2 undefined on input line 142.
+
+[2 <./images/UniqueAminoAcids.png> <./images/Sequence_SizeDistribution(2000).png> <./images/Sequence_SizeDistribution(1000).png>]
+<images/Model_0001.jpg, id=30, 539.76656pt x 347.79938pt>
+File: images/Model_0001.jpg Graphic file (type jpg)
+<use images/Model_0001.jpg>
+Package pdftex.def Info: images/Model_0001.jpg  used on input line 183.
+(pdftex.def)             Requested size: 252.0pt x 162.37779pt.
+
+Underfull \hbox (badness 5231) in paragraph at lines 187--187
+[]\OT1/ptm/m/n/8 Fig. 4: |En-zyme Com-mis-sion num-ber pre-dic-tion up to two dig-its
+ []
+
+
 Underfull \vbox (badness 2790) has occurred while \output is active []
 
+
+
+/Users/ugur_dura/Desktop/Writing Academic Resarch Papers/Paper/EC-Number-Prediction-Using-Pre-Trained-Language-Models-A-Promising-Tool-for-Protein-Research/conference_101719.tex:224: LaTeX Error: File `plot1' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 ...\includegraphics[width=\linewidth]{plot1}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/ugur_dura/Desktop/Writing Academic Resarch Papers/Paper/EC-Number-Prediction-Using-Pre-Trained-Language-Models-A-Promising-Tool-for-Protein-Research/conference_101719.tex:232: LaTeX Error: File `plot2' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 ...\includegraphics[width=\linewidth]{plot2}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/ugur_dura/Desktop/Writing Academic Resarch Papers/Paper/EC-Number-Prediction-Using-Pre-Trained-Language-Models-A-Promising-Tool-for-Protein-Research/conference_101719.tex:240: LaTeX Error: File `plot3' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.240 ...\includegraphics[width=\linewidth]{plot3}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+/Users/ugur_dura/Desktop/Writing Academic Resarch Papers/Paper/EC-Number-Prediction-Using-Pre-Trained-Language-Models-A-Promising-Tool-for-Protein-Research/conference_101719.tex:248: LaTeX Error: File `plot4' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.248 ...\includegraphics[width=\linewidth]{plot4}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `b1' on page 3 undefined on input line 268.
+
+
+LaTeX Warning: Citation `b2' on page 3 undefined on input line 269.
+
+
+LaTeX Warning: Citation `b3' on page 3 undefined on input line 270.
+
+
+LaTeX Warning: Citation `b3' on page 3 undefined on input line 270.
+
+
+LaTeX Warning: Citation `b3' on page 3 undefined on input line 270.
+
+
+LaTeX Warning: Citation `b3' on page 3 undefined on input line 271.
+
+[3 <./images/XMASK_Padding_Truncation_Distribution.jpg> <./images/XMASK_Padding_Truncation_Distribution_1024.jpg> <./images/Model_0001.jpg>]
+
+LaTeX Warning: Citation `b4' on page 4 undefined on input line 279.
+
+
+LaTeX Warning: Citation `b5' on page 4 undefined on input line 280.
+
+
+LaTeX Warning: Citation `b6' on page 4 undefined on input line 285.
 
 
 ** Conference Paper **
@@ -366,29 +460,34 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <./images/XMASK_Padding_Truncation_Distribution.jpg> <./images/XMASK_Padding_Truncation_Distribution_1024.jpg>] (./conference_101719.aux)
+[4
+
+] (./conference_101719.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5691 strings out of 475237
- 94996 string characters out of 5764552
+ 5825 strings out of 475237
+ 97100 string characters out of 5764552
  1931244 words of memory out of 5000000
- 26894 multiletter control sequences out of 15000+600000
- 596655 words of font info for 118 fonts, out of 8000000 for 9000
+ 27027 multiletter control sequences out of 15000+600000
+ 597762 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,14n,77p,1738b,471s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (3 pages, 622191 bytes).
+Output written on conference_101719.pdf (4 pages, 715422 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
