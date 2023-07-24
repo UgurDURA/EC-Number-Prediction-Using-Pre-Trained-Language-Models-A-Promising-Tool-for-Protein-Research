@@ -12,6 +12,7 @@
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
+\usepackage{hyperref}
 
 \captionsetup{
   font={footnotesize} % Set the font size for all captions to 8pt (footnotesize)
@@ -44,20 +45,18 @@ Enzyme Commission (EC) numbers play a vital role in accurately understanding enz
 component, formatting, style, styling, insert
 \end{IEEEkeywords}
 
-\vspace{3cm}
-
 \section{Introduction}
 
 
-Enzymes, a vital class of proteins within the human body, play a crucial role in catalyzing reactions and regulating various biological processes. Understanding their functions is essential for numerous applications, such as metagenomics, industrial biotechnology, and diagnosing enzyme-related diseases. However, traditional experimental techniques like enzymatic assays have become increasingly time-consuming and challenging to keep up with the rapidly growing number of newly discovered enzymes.
+Enzymes, a vital class of proteins within the human body, play a crucial role in catalyzing reactions and regulating various biological processes \cite{1}. Understanding their functions is essential for numerous applications, such as metagenomics, industrial biotechnology, and diagnosing enzyme-related diseases \cite{2}. However, traditional experimental techniques like enzymatic assays have become increasingly time-consuming and challenging to keep up with the rapidly growing number of newly discovered enzymes \cite{3}.
 
-In recent years, computational methods have emerged as invaluable tools for predicting enzyme function and guiding experimental validation. The widely used Enzyme Commission (EC) system employs four-digit codes to specify enzyme functions, enabling computational methods to accurately annotate enzyme activities.
+In recent years, computational methods have emerged as invaluable tools for predicting enzyme function and guiding experimental validation. The widely used Enzyme Commission (EC) system employs four-digit codes to specify enzyme functions, enabling computational methods to accurately annotate enzyme activities \cite{4}.
 
-To address this issue, computational methods have emerged as valuable tools for predicting enzyme function and guiding experimental validation. Previous research has explored three main approaches for enzyme EC number prediction: (i) structure-based prediction, which involves first predicting enzyme structures and then assigning EC numbers based on similarities to known templates; (ii) sequence similarity-based methods, which predict enzyme function based on the assumption that enzymes with high sequence similarity tend to have similar functionalities; and (iii) machine learning-based methods, which extract features from enzyme sequences and use machine learning algorithms for classification.
+To address this issue, computational methods have emerged as valuable tools for predicting enzyme function and guiding experimental validation. Previous research \cite{5} has explored three main approaches for enzyme EC number prediction: (i) structure-based prediction \cite{6},\cite{7},\cite{8}, which involves first predicting enzyme structures and then assigning EC numbers based on similarities to known templates; (ii) sequence similarity-based methods\cite{9},\cite{10},\cite{11}, which predict enzyme function based on the assumption that enzymes with high sequence similarity tend to have similar functionalities; and (iii) machine learning-based methods\cite{12},\cite{13},\cite{14}, which extract features from enzyme sequences and use machine learning algorithms for classification.
 
-Despite progress made, existing approaches encounter challenges such as homology requirements, feature design limitations, and feature dimensionality non-uniformity. Homology requirements can limit the prediction capability of sequence similarity-based methods when encountering sequences with limited homologies in existing databases. Moreover, feature design often relies on manually crafted or pre-defined features, which may not be optimal or sustainable in the omic era, with the rapid expansion of known enzyme sequences.
+Despite progress made, existing approaches encounter challenges such as homology requirements, feature design limitations, and feature dimensionality non-uniformity\cite{5},\cite{14}. Homology requirements can limit the prediction capability of sequence similarity-based methods when encountering sequences with limited homologies in existing databases\cite{15}. Moreover, feature design often relies on manually crafted or pre-defined features, which may not be optimal or sustainable in the omic era, with the rapid expansion of known enzyme sequences\cite{3},\cite{5}.
 
-In contrast, recent advances in deep neural networks have shown promise as generative and discriminative models for protein science and engineering. Transformer-based language models, particularly, have demonstrated impressive capabilities in various domains, including natural language processing. To address these challenges, this research proposes a novel approach based on deep learning, specifically utilizing Prot-BERT and transfer learning, for predicting first-order EC numbers of enzymes.
+In contrast, recent advances in deep neural networks have shown promise as generative and discriminative models for protein science and engineering\cite{16}. Transformer-based language models, particularly, have demonstrated impressive capabilities in various domains, including natural language processing\cite{17}. To address these challenges, this research proposes a novel approach based on deep learning, specifically utilizing Prot-BERT\cite{18} and transfer learning, for predicting first-order EC numbers of enzymes.
 
 In conclusion, this research aims to develop a robust and efficient deep learning-based predictive model for enzyme EC number classification. By combining the power of Prot-BERT with fine-tuning on a large dataset of enzyme sequences, this approach holds the potential to significantly advance our understanding of enzyme functions and aid in various applications related to enzymology.
 
@@ -68,7 +67,7 @@ In conclusion, this research aims to develop a robust and efficient deep learnin
 
 \subsection{Data Collection}
 
-The dataset used in this study was obtained from SwissProt, a manually curated section of UniProtKB, which contains a vast collection of annotated protein entries. Initially, the dataset comprised 565,254 protein sequences. To focus specifically on enzymes and their respective functions, a rigorous filtering process was applied, resulting in a refined dataset consisting of 271,464 entries. Only entries with at least one assigned EC number were retained for further analysis. In cases where an entry contained multiple EC numbers, the first one listed was used for subsequent prediction tasks.
+The dataset used in this study was obtained from SwissProt, a manually curated section of UniProtKB, which contains a vast collection of annotated protein entries\cite{19}. Initially, the dataset comprised 565,254 protein sequences. To focus specifically on enzymes and their respective functions, a rigorous filtering process was applied, resulting in a refined dataset consisting of 271,464 entries. Only entries with at least one assigned EC number were retained for further analysis. In cases where an entry contained multiple EC numbers, the first one listed was used for subsequent prediction tasks.
 
 
 
@@ -166,12 +165,12 @@ By utilizing one-hot encoding, we successfully converted the diverse range of am
 \subsection{Model Construction}
 
 
-In our research, we utilized the main Bert Layer from the pre-trained ProtBERT-BFD
+In our research, we utilized the main Bert Layer from the pre-trained ProtBERT-BFD\cite{18}
 model as the embedding layer. The ”training” parameter of the layer was set to False
 during fine-tuning to maintain the integrity of the pre-trained embedding mechanism. We
 employed the mandatory ProtBERT-BFD tokenizer to tokenize our dataset. Following
 the embedding layer, we used pooling, normalization, two dense layers (with sizes 128
-and 32), a dropout layer, and a final dense layer with softmax activation function. The
+and 32), a dropout layer, and a final dense layer with softmax activation function (Fig. \ref{fig:model}). The
 tokenizer outputs, including the tokenized sequence and mask, were fed into the BERT
 layer. The model’s output went through subsequent layers until the final output layer,
 which provided probability scores for each class. ReLU activation function was used for
@@ -197,8 +196,7 @@ hidden layers to prevent the vanishing gradient problem and enhance model perfor
 \subsection{Results of first-order EC number prediction}
 
 Upon completing the training of our model, we conducted an assessment of various
-metrics including loss, accuracy, validation accuracy, and validation loss. fig. 5 demon-
-strates a continuous decrease in loss and an increase in accuracy, indicating that our
+metrics including loss, accuracy, validation accuracy, and validation loss Fig. \ref{fig:results} demonstrates a continuous decrease in loss and an increase in accuracy, indicating that our
 model did not suffer from overfitting and the training process was successful.
 
 Additionally, following the model’s successful training, we performed several tests by
@@ -214,100 +212,127 @@ increased, the number of classes (labels) also increased. For example, the secon
 had 72 classes, the third order had 207 classes, and the fourth order had 272 distinct
 classes. Due to the increasing complexity of the EC numbers, predicting the exact EC
 number based on a limited dataset became more challenging. However, we made every
-effort to achieve the best possible results, as shown in fig. 5.
+effort to achieve the best possible results, as shown in Fig. \ref{fig:results}.
+
+\onecolumn
 
 
 \begin{figure}[ht]
   \centering
 
-  \begin{subfigure}{0.45\linewidth}
-    \includegraphics[width=\linewidth]{plot1}
-    \caption{Subcaption 1}
+  \begin{subfigure}{0.7\linewidth}
+    \includegraphics[width=\linewidth]{images/EC1_Results.png}
+    \caption{First-order EC number predictions}
     \label{fig:subfig1}
   \end{subfigure}
 
   \vspace{0.5cm}
 
-  \begin{subfigure}{0.45\linewidth}
-    \includegraphics[width=\linewidth]{plot2}
-    \caption{Subcaption 2}
+  \begin{subfigure}{0.7\linewidth}
+    \includegraphics[width=\linewidth]{images/EC2_Results.png}
+    \caption{First two digits EC number predictions}
     \label{fig:subfig2}
   \end{subfigure}
 
   \vspace{0.5cm}
 
-  \begin{subfigure}{0.45\linewidth}
-    \includegraphics[width=\linewidth]{plot3}
-    \caption{Subcaption 3}
+  \begin{subfigure}{0.7\linewidth}
+    \includegraphics[width=\linewidth]{images/EC_3.png}
+    \caption{First three digits EC number predictions}
     \label{fig:subfig3}
   \end{subfigure}
 
   \vspace{0.5cm}
 
-  \begin{subfigure}{0.45\linewidth}
-    \includegraphics[width=\linewidth]{plot4}
-    \caption{Subcaption 4}
+  \begin{subfigure}{0.7\linewidth}
+    \includegraphics[width=\linewidth]{images/EC4_Results.png}
+    \caption{Overall EC number predictions}
     \label{fig:subfig4}
   \end{subfigure}
 
-  \caption{Main caption for the entire figure}
-  \label{fig:mainfigure}
+  \caption{The figure displays four subplots representing the results of each model for predicting Enzyme Commission (EC) numbers. (a) illustrates the first-order EC number predictions achieved by Model 1, while the second subplot (b) shows the first two digits EC number predictions obtained by Model 2. The (c) exhibits the first three digits EC number predictions by Model 3, and the (d) demonstrates the overall EC number predictions by Model 4. Additionally, each subplot shows the model loss throughout epochs on the left side and the model accuracy throughout epochs on the right side.}
+  \label{fig:results}
 \end{figure}
 
 
+\twocolumn
 
 
 
+\section{Discussion}
+
+The study employed ProtBERT-based models for predicting EC numbers of different
+orders. The first-order prediction demonstrated successful training, with decreasing loss
+and increasing accuracy. The model accurately predicted EC numbers for user-provided
+sequences. Moving to higher orders presented challenges due to increased complexity
+and limited data. However, efforts yielded noteworthy results, as depicted in Fig. \ref{fig:results}. The
+first-order prediction achieved high accuracy (0.96), while accuracy slightly decreased
+for higher orders (0.87 for second order, 0.64 for third order). The fourth-order prediction encountered greater difficulties, resulting in lower accuracy (52). Despite these challenges, the model showcased its potential in providing insights into enzyme functionality. Future work should focus on expanding the dataset and exploring alternative strategies for further improving accuracy and robustness.
+
+
+\subsection{Further Research}
+
+The 4-digit EC number notation is organized in a hierarchical classification structure, resembling a tree-like schema, with the general enzyme category at the root node and the 4th-order EC number at the deepest leaves. Predicting the complete 4-digit EC number can be considered a multi-label task, depending on the specific approach used.
+
+Contrastive learning offers several advantages over traditional supervised training methods, particularly in the context of hierarchical classification tasks. In a study conducted by Heizinger et al. in 2022, the performance of contrastive learning on real protein language models was demonstrated \cite{20}. One key advantage is its dynamic nature, allowing the model to update with new data without requiring re-training, making it well-suited for online learning scenarios. Additionally, contrastive learning enables the network to learn how to access information from an external lookup set rather than memorizing the training data, leading to improved efficiency and scalability \cite{20}. Our findings suggest that contrastive learning holds promise for improving the multi-class problem we encountered. In future work, a combination of hierarchical classification and contrastive learning could be explored to address optimization challenges and further enhance model accuracy.
 
 
 
+\section{Conclusion}
 
 
-\section*{References}
+In this study, we explored the potential of utilizing pre-trained language models, particularly the transformer BERT model, for predicting EC numbers based on protein sequences. Our objective was to bridge the gap between protein sequences and language processing, leveraging the power of deep learning to accurately predict enzyme functionalities.
 
-Please number citations consecutively within brackets \cite{b1}. The 
-sentence punctuation follows the bracket \cite{b2}. Refer simply to the reference 
-number, as in \cite{b3}---do not use ``Ref. \cite{b3}'' or ``reference \cite{b3}'' except at 
-the beginning of a sentence: ``Reference \cite{b3} was the first $\ldots$''
+Through extensive experimentation on a carefully curated dataset of enzyme sequences from UniProt, we demonstrated the successful utilization of the transformer BERT model for first-order EC number prediction with high accuracy. The model effectively harnessed the linguistic information present in protein sequences, allowing us to classify de novo enzyme functions with confidence.
 
-Number footnotes separately in superscripts. Place the actual footnote at 
-the bottom of the column in which it was cited. Do not put footnotes in the 
-abstract or reference list. Use letters for table footnotes.
+While higher-order EC number prediction proved more challenging due to limited data and increased complexity, our model showed promise for gaining insights into enzyme functionality at various levels.
 
-Unless there are six authors or more give all authors' names; do not use 
-``et al.''. Papers that have not been published, even if they have been 
-submitted for publication, should be cited as ``unpublished'' \cite{b4}. Papers 
-that have been accepted for publication should be cited as ``in press'' \cite{b5}. 
-Capitalize only the first word in a paper title, except for proper nouns and 
-element symbols.
+Overall, our research demonstrates the potential of language models in enzymology, paving the way for advancements in drug discovery, protein engineering, and biomedical applications.
 
-For papers published in translation journals, please give the English 
-citation first, followed by the original foreign-language citation \cite{b6}.
+Future research should focus on expanding the dataset to address data limitations and further improving model accuracy for higher-order EC number prediction. Incorporating contrastive learning techniques and exploring hierarchical classification approaches could enhance optimization and scalability, allowing the model to adapt to new data seamlessly.
+
+Overall, our study opens up exciting possibilities for leveraging deep learning in enzyme function prediction, propelling the field towards new discoveries and applications.
+
+
+
 
 \begin{thebibliography}{00}
-\bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
-\bibitem{b2} J. Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68--73.
-\bibitem{b3} I. S. Jacobs and C. P. Bean, ``Fine particles, thin films and exchange anisotropy,'' in Magnetism, vol. III, G. T. Rado and H. Suhl, Eds. New York: Academic, 1963, pp. 271--350.
-\bibitem{b4} K. Elissa, ``Title of paper if known,'' unpublished.
-\bibitem{b5} R. Nicole, ``Title of paper with only first word capitalized,'' J. Name Stand. Abbrev., in press.
-\bibitem{b6} Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa, ``Electron spectroscopy studies on magneto-optical media and plastic substrate interface,'' IEEE Transl. J. Magn. Japan, vol. 2, pp. 740--741, August 1987 [Digests 9th Annual Conf. Magnetics Japan, p. 301, 1982].
-\bibitem{b7} M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science, 1989.
+\bibitem{1} G. M. Cooper, The central role of enzymes as biological catalysts. Sunderland, MA: Sinauer Associates, 2000.
+\bibitem{2} P. K. Robinson, “Enzymes: principles and biotechnological applications,” Essays Biochem., vol. 59, no. 0, pp. 1–41, 2015.
+
+\bibitem{3} B. Rost and C. Sander, “Bridging the protein sequence-structure gap by structure predictions,” Annu. Rev. Biophys. Biomol. Struct., vol. 25, no. 1, pp. 113–136, 1996.
+\bibitem{4} Q.-N. Hu et al., “Assignment of EC numbers to enzymatic reactions with reaction difference fingerprints,” PLoS One, vol. 7, no. 12, p. e52901, 2012.
+\bibitem{5} Y. Li et al., “DEEPre: sequence-based enzyme EC number prediction by deep learning,” Bioinformatics, vol. 34, no. 5, pp. 760–769, 2018.
+\bibitem{6} P. D. Dobson and A. J. Doig, “Predicting enzyme class from protein structure without alignments,” J. Mol. Biol., vol. 345, no. 1, pp. 187–199, 2005.
+\bibitem{7}C. Nagao, N. Nagano, and K. Mizuguchi, “Prediction of detailed enzyme functions and identification of specificity determining residues by random forests,” PLoS One, vol. 9, no. 1, p. e84623, 2014.
+\bibitem{8}J. Yang, R. Yan, A. Roy, D. Xu, J. Poisson, and Y. Zhang, “The I-TASSER Suite: protein structure and function prediction,” Nat. Methods, vol. 12, no. 1, pp. 7–8, 2015.
+\bibitem{9}A. K. Arakaki, Y. Huang, and J. Skolnick, “EFICAz2: enzyme function inference by a combined approach enhanced by machine learning,” BMC Bioinformatics, vol. 10, no. 1, p. 107, 2009.
+
+\bibitem{10}S. Quester and D. Schomburg, “EnzymeDetector: an integrated enzyme function prediction tool and database,” BMC Bioinformatics, vol. 12, no. 1, p. 376, 2011.
+\bibitem{11}N. Kumar and J. Skolnick, “EFICAz2.5: application of a high-precision enzyme function predictor to 396 proteomes,” Bioinformatics, vol. 28, no. 20, pp. 2687–2688, 2012.
+\bibitem{12}C. Z. Cai, L. Y. Han, Z. L. Ji, X. Chen, and Y. Z. Chen, “SVM-Prot: Web-based support vector machine software for functional classification of a protein from its primary sequence,” Nucleic Acids Res., vol. 31, no. 13, pp. 3692–3697, 2003.
+\bibitem{13}H.-L. Zou and X. Xiao, “Classifying multifunctional enzymes by incorporating three different models into chou’s general pseudo amino acid composition,” J. Membr. Biol., vol. 249, no. 4, pp. 551–557, 2016.
+\bibitem{14}L. De Ferrari, S. Aitken, J. van Hemert, and I. Goryanin, “EnzML: multi-label prediction of enzyme classes using InterPro signatures,” BMC Bioinformatics, vol. 13, no. 1, p. 61, 2012.
+\bibitem{15}H. Dai, R. Umarov, H. Kuwahara, Y. Li, L. Song, and X. Gao, “Sequence2Vec: a novel embedding approach for modeling transcription factor binding affinity landscape,” Bioinformatics, vol. 33, no. 22, pp. 3575–3583, 2017.
+\bibitem{16}K. Lin, X. Quan, C. Jin, Z. Shi, and J. Yang, “An interpretable double-scale attention model for enzyme protein class prediction based on Transformer encoders and multi-scale convolutions,” Front. Genet., vol. 13, 2022.
+\bibitem{17} K. S. Kalyan, A. Rajasekharan, and S. Sangeetha, “AMMUS: A survey of transformer-based pretrained models in natural language processing,” arXiv cs.CL, 2021.
+\bibitem{18}A. Elnaggar et al., “ProtTrans: Towards cracking the language of life’s code through self-supervised learning,” bioRxiv, 2020.
+
+\bibitem{19}A. Morgat et al., “Enzyme annotation in UniProtKB using Rhea,” bioRxiv, 2019.
+\bibitem{20}M. Heinzinger, M. Littmann, I. Sillitoe, N. Bordin, C. Orengo, and B. Rost, “Contrastive learning on protein embeddings enlightens midnight zone,” NAR Genom. Bioinform., vol. 4, no. 2, p. lqac043, 2022.
+ 
 \end{thebibliography}
 \vspace{12pt}
 
 
 
-\appendix
+\section*{Appendix}
 
-\section*{Plots}
-
-
-sdfsdfsdf
-
-\section*{Tables}
+\subsection*{A Source Code}
 
 
-sdfsdf
+Please find the source code on GitHub: \href{https://github.com/UgurDURA/Protein-Active-Site-w-ML.git}{GitHub Repository}
+
 
 
 

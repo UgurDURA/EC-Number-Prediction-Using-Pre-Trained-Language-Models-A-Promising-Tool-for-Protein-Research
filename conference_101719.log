@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.21)  21 JUL 2023 20:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.21)  21 JUL 2023 23:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -257,41 +257,180 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count286
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)
+\@linkdim=\dimen183
+\Hy@linkcounter=\count288
+\Hy@pagecounter=\count289
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count290
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count291
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4772.
+\XeTeXLinkMargin=\dimen184
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count292
+\Field@Width=\dimen185
+\Fld@charsize=\dimen186
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count293
+\c@Item=\count294
+\c@Hfootnote=\count295
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count296
+\c@bookmark@seq@number=\count297
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip56
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count286
+\l__color_backend_stack_int=\count298
 \l__pdf_internal_box=\box55
-) (./conference_101719.aux)
+) (./conference_101719.aux
+
+LaTeX Warning: Label `fig:subfig1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:subfig2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig2' multiply defined.
+
+
+LaTeX Warning: Label `fig:subfig1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig1' multiply defined.
+
+
+LaTeX Warning: Label `fig:subfig2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subfig2' multiply defined.
+
+)
 \openout1 = `conference_101719.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 -- Lines per column: 56 (exact).
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count287
-\scratchdimen=\dimen183
+\scratchcounter=\count299
+\scratchdimen=\dimen187
 \scratchbox=\box56
-\nofMPsegments=\count288
-\nofMParguments=\count289
+\nofMPsegments=\count300
+\nofMParguments=\count301
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count290
-\MPscratchDim=\dimen184
-\MPnumerator=\count291
-\makeMPintoPDFobject=\count292
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen188
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
 \everyMPtoPDFconversion=\toks25
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -300,155 +439,93 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 37.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
+Package hyperref Info: Link coloring OFF on input line 27.
+ (./conference_101719.out) (./conference_101719.out)
+\@outlinefile=\write3
+\openout3 = `conference_101719.out'.
+
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-
-LaTeX Warning: Reference `fig:dataset_analysis' on page 2 undefined on input line 79.
-
-<images/UniqueAminoAcids.png, id=11, 373.395pt x 259.97125pt>
+<images/UniqueAminoAcids.png, id=104, 373.395pt x 259.97125pt>
 File: images/UniqueAminoAcids.png Graphic file (type png)
 <use images/UniqueAminoAcids.png>
-Package pdftex.def Info: images/UniqueAminoAcids.png  used on input line 85.
+Package pdftex.def Info: images/UniqueAminoAcids.png  used on input line 84.
 (pdftex.def)             Requested size: 201.60077pt x 140.36255pt.
-<images/Sequence_SizeDistribution(2000).png, id=13, 722.7pt x 505.89pt>
+<images/Sequence_SizeDistribution(2000).png, id=106, 722.7pt x 505.89pt>
 File: images/Sequence_SizeDistribution(2000).png Graphic file (type png)
 <use images/Sequence_SizeDistribution(2000).png>
-Package pdftex.def Info: images/Sequence_SizeDistribution(2000).png  used on input line 98.
+Package pdftex.def Info: images/Sequence_SizeDistribution(2000).png  used on input line 97.
 (pdftex.def)             Requested size: 252.0pt x 176.40028pt.
-<images/Sequence_SizeDistribution(1000).png, id=14, 722.7pt x 505.89pt>
+<images/Sequence_SizeDistribution(1000).png, id=107, 722.7pt x 505.89pt>
 File: images/Sequence_SizeDistribution(1000).png Graphic file (type png)
 <use images/Sequence_SizeDistribution(1000).png>
-Package pdftex.def Info: images/Sequence_SizeDistribution(1000).png  used on input line 105.
+Package pdftex.def Info: images/Sequence_SizeDistribution(1000).png  used on input line 104.
 (pdftex.def)             Requested size: 252.0pt x 176.40028pt.
-
-LaTeX Warning: Reference `fig:Sequence_SizeDistribution' on page 2 undefined on input line 117.
-
-
-LaTeX Warning: Reference `fig:Padding_Truncation' on page 2 undefined on input line 117.
-
-<images/XMASK_Padding_Truncation_Distribution.jpg, id=15, 479.54156pt x 362.10281pt>
+<images/XMASK_Padding_Truncation_Distribution.jpg, id=108, 479.54156pt x 362.10281pt>
 File: images/XMASK_Padding_Truncation_Distribution.jpg Graphic file (type jpg)
 <use images/XMASK_Padding_Truncation_Distribution.jpg>
-Package pdftex.def Info: images/XMASK_Padding_Truncation_Distribution.jpg  used on input line 125.
+Package pdftex.def Info: images/XMASK_Padding_Truncation_Distribution.jpg  used on input line 124.
 (pdftex.def)             Requested size: 161.28122pt x 121.78174pt.
-<images/XMASK_Padding_Truncation_Distribution_1024.jpg, id=16, 480.29437pt x 359.84438pt>
+<images/XMASK_Padding_Truncation_Distribution_1024.jpg, id=109, 480.29437pt x 359.84438pt>
 File: images/XMASK_Padding_Truncation_Distribution_1024.jpg Graphic file (type jpg)
 <use images/XMASK_Padding_Truncation_Distribution_1024.jpg>
-Package pdftex.def Info: images/XMASK_Padding_Truncation_Distribution_1024.jpg  used on input line 132.
+Package pdftex.def Info: images/XMASK_Padding_Truncation_Distribution_1024.jpg  used on input line 131.
 (pdftex.def)             Requested size: 161.28122pt x 120.8355pt.
-
-LaTeX Warning: Reference `eq:indicator_function' on page 2 undefined on input line 142.
-
-[2 <./images/UniqueAminoAcids.png> <./images/Sequence_SizeDistribution(2000).png> <./images/Sequence_SizeDistribution(1000).png>]
-<images/Model_0001.jpg, id=30, 539.76656pt x 347.79938pt>
+ [2 <./images/UniqueAminoAcids.png> <./images/Sequence_SizeDistribution(2000).png> <./images/Sequence_SizeDistribution(1000).png>]
+<images/Model_0001.jpg, id=132, 539.76656pt x 347.79938pt>
 File: images/Model_0001.jpg Graphic file (type jpg)
 <use images/Model_0001.jpg>
-Package pdftex.def Info: images/Model_0001.jpg  used on input line 183.
+Package pdftex.def Info: images/Model_0001.jpg  used on input line 182.
 (pdftex.def)             Requested size: 252.0pt x 162.37779pt.
 
-Underfull \hbox (badness 5231) in paragraph at lines 187--187
+Underfull \hbox (badness 5231) in paragraph at lines 186--186
 []\OT1/ptm/m/n/8 Fig. 4: |En-zyme Com-mis-sion num-ber pre-dic-tion up to two dig-its
  []
 
 
 Underfull \vbox (badness 2790) has occurred while \output is active []
 
+ [3 <./images/XMASK_Padding_Truncation_Distribution.jpg> <./images/XMASK_Padding_Truncation_Distribution_1024.jpg> <./images/Model_0001.jpg>]
+<images/EC1_Results.png, id=142, 1756.5625pt x 670.505pt>
+File: images/EC1_Results.png Graphic file (type png)
+<use images/EC1_Results.png>
+Package pdftex.def Info: images/EC1_Results.png  used on input line 224.
+(pdftex.def)             Requested size: 361.19843pt x 137.87389pt.
+<images/EC2_Results.png, id=143, 1756.5625pt x 670.505pt>
+File: images/EC2_Results.png Graphic file (type png)
+<use images/EC2_Results.png>
+Package pdftex.def Info: images/EC2_Results.png  used on input line 232.
+(pdftex.def)             Requested size: 361.19843pt x 137.87389pt.
+<images/EC_3.png, id=144, 1756.5625pt x 670.505pt>
+File: images/EC_3.png Graphic file (type png)
+<use images/EC_3.png>
+Package pdftex.def Info: images/EC_3.png  used on input line 240.
+(pdftex.def)             Requested size: 361.19843pt x 137.87389pt.
+<images/EC4_Results.png, id=145, 1756.5625pt x 670.505pt>
+File: images/EC4_Results.png Graphic file (type png)
+<use images/EC4_Results.png>
+Package pdftex.def Info: images/EC4_Results.png  used on input line 248.
+(pdftex.def)             Requested size: 361.19843pt x 137.87389pt.
 
 
-/Users/ugur_dura/Desktop/Writing Academic Resarch Papers/Paper/EC-Number-Prediction-Using-Pre-Trained-Language-Models-A-Promising-Tool-for-Protein-Research/conference_101719.tex:224: LaTeX Error: File `plot1' not found.
+LaTeX Warning: Float too large for page by 23.77467pt on input line 255.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.224 ...\includegraphics[width=\linewidth]{plot1}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[4 <./images/EC1_Results.png> <./images/EC2_Results.png> <./images/EC_3.png> <./images/EC4_Results.png>] [5
 
 
-/Users/ugur_dura/Desktop/Writing Academic Resarch Papers/Paper/EC-Number-Prediction-Using-Pre-Trained-Language-Models-A-Promising-Tool-for-Protein-Research/conference_101719.tex:232: LaTeX Error: File `plot2' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.232 ...\includegraphics[width=\linewidth]{plot2}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/Users/ugur_dura/Desktop/Writing Academic Resarch Papers/Paper/EC-Number-Prediction-Using-Pre-Trained-Language-Models-A-Promising-Tool-for-Protein-Research/conference_101719.tex:240: LaTeX Error: File `plot3' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 ...\includegraphics[width=\linewidth]{plot3}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/Users/ugur_dura/Desktop/Writing Academic Resarch Papers/Paper/EC-Number-Prediction-Using-Pre-Trained-Language-Models-A-Promising-Tool-for-Protein-Research/conference_101719.tex:248: LaTeX Error: File `plot4' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.248 ...\includegraphics[width=\linewidth]{plot4}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `b1' on page 3 undefined on input line 268.
-
-
-LaTeX Warning: Citation `b2' on page 3 undefined on input line 269.
-
-
-LaTeX Warning: Citation `b3' on page 3 undefined on input line 270.
-
-
-LaTeX Warning: Citation `b3' on page 3 undefined on input line 270.
-
-
-LaTeX Warning: Citation `b3' on page 3 undefined on input line 270.
-
-
-LaTeX Warning: Citation `b3' on page 3 undefined on input line 271.
-
-[3 <./images/XMASK_Padding_Truncation_Distribution.jpg> <./images/XMASK_Padding_Truncation_Distribution_1024.jpg> <./images/Model_0001.jpg>]
-
-LaTeX Warning: Citation `b4' on page 4 undefined on input line 279.
-
-
-LaTeX Warning: Citation `b5' on page 4 undefined on input line 280.
-
-
-LaTeX Warning: Citation `b6' on page 4 undefined on input line 285.
-
+]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -460,7 +537,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
+[6
 
 ] (./conference_101719.aux)
  ***********
@@ -469,25 +546,24 @@ L3 programming layer <2023-06-30>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `conference_101719.out' has not changed.
+(rerunfilecheck)             Checksum: F9AC3337E978830F3BFC6ED28401DD5E;1942.
  ) 
 Here is how much of TeX's memory you used:
- 5825 strings out of 475237
- 97100 string characters out of 5764552
- 1931244 words of memory out of 5000000
- 27027 multiletter control sequences out of 15000+600000
- 597762 words of font info for 119 fonts, out of 8000000 for 9000
+ 12757 strings out of 475237
+ 204240 string characters out of 5764552
+ 1939244 words of memory out of 5000000
+ 33805 multiletter control sequences out of 15000+600000
+ 596655 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,14n,77p,1738b,471s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,1738b,566s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on conference_101719.pdf (4 pages, 715422 bytes).
+Output written on conference_101719.pdf (6 pages, 1222842 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
